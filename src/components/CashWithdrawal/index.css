@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffff;
+  padding: 20px;
+}
+.denom_container {
+  background-color: #150b3e;
+  width: 70vw;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px;
+}
+.details {
+  display: flex;
+  justify-content: flex-start;
+}
+.symbol {
+  background-color: #c7d2fe;
+  height: 80px;
+  width: 80px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #d4d2db;
+  margin-left: 10px;
+}
+.balance_container {
+  display: flex;
+
+  justify-content: space-between;
+}
+.your_bal {
+  color: #7c3aed;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.balance {
+  color: #d4d2db;
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.rupees {
+  color: #7c3aed;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.choose {
+  color: #7c3aed;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}

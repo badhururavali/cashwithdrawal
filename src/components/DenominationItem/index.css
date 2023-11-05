@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.denom_list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+.button {
+  height: 40px;
+  min-width: 160px;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin: 10px;
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Robot';
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  .button {
+    min-width: 100px;
+  }
+}
+.ul_list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
